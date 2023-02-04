@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    overflow: hidden;
+    background: url(https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=) no-repeat center center;
+    height: 100vh;
+    padding: 0, 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+
+
+
+}
+
+.container {
+    width: 80vmin;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    border-radius: 23px;
+    position: absolute;
+
+    padding: 20px 40px;
+    Opacity: 1;
+    Transition: Opacity 1.5s;
+
+}
+
+.pclass {
+    font-size: small;
+}
+
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: medium;
+    }
+
+}
