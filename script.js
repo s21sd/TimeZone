@@ -29,7 +29,7 @@ console.log(time1, time2, time3);
 
 timehere.innerHTML = (time1 + ":" + time2 + ":" + time3);
 
-let x = Math.round(Math.random() * 15);
+let x = Math.round(Math.random() * arr.length);
 thought.innerHTML = arr[x];
 setTimeout(() => {
     document.location.reload();
