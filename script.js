@@ -22,14 +22,14 @@ const arr = ["Do you wish me a good morning, or mean that it is a good morning w
     "The average, healthy, well - adjusted adult gets up at seven - thirty in the morning feeling just plain terrible. — Jean Kerr",
     "My routine is to ride that snooze button as far as it will take me, take a quick shower, get dressed in the dark and bolt out the door. — Willie Geist",
     "What irritates me most of all about these morning people is their horribly good temper, as if they have been up for three hours and already conquered France.” — Timur Vermes"]
-const a = new Date();
-const time1 = a.toLocaleTimeString();
 
-timehere.innerHTML = (time1);
 
 let x = Math.round(Math.random() * arr.length);
 thought.innerHTML = arr[x];
-setTimeout(() => {
-    document.location.reload();
+setInterval(() => {
+const a = new Date();
+const time1 = a.toLocaleTimeString();
+timehere.innerHTML = (time1);
+ 
 
-},70000)
+},1000)
