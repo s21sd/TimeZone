@@ -1,3 +1,4 @@
+document.querySelector('#timehere');
 const arr = ["Do you wish me a good morning, or mean that it is a good morning whether I want it or not; or that you feel good this morning; or that it is a morning to be good on?” — J.R.R.Tolkien",
     "Never face facts; if you do you’ll never get up in the morning.” — Marlo Thomas",
     "Morning is wonderful.Its only drawback is that it comes at such an inconvenient time of day.” — Glen Cook",
